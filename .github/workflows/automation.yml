@@ -1,0 +1,5 @@
+on: push
+jobs:
+  echo:
+    steps:
+      - run: echo 'repo -> ${{ github.repository }}'
